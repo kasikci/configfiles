@@ -4,6 +4,9 @@
 (add-to-list 'load-path "/home/kasikci/elisp/")
 (load "/home/kasikci/elisp/tuareg-site-file.el")
 
+;; Turn on flyspell in text mode
+(add-hook 'text-mode-hook 'turn-on-flyspell)
+
 ;; auto refresh emacs buffers
 (global-auto-revert-mode t)
 
@@ -47,6 +50,14 @@
 ;;     (1 'portend-debug-mode)))
 ;;  nil
 ;;  nil)
+
+;; (define-generic-mode portend-debug-mode
+;;   nil
+;;   nil 
+;;   '(("\\([0-9]+/[0-9]+/[0-9]+\\)"
+;;      (1 'portend-debug-mode)))
+;;   nil
+;;   nil)
 
 (define-generic-mode portend-debug-mode
  nil
