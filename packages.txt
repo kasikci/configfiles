@@ -1,0 +1,2 @@
+emacs24
+openssh-server
