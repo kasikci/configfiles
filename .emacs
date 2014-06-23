@@ -1,8 +1,8 @@
 ;; Emacs configuration file (.emacs)
 ;; author: kasikci
 
-(add-to-list 'load-path "/home/kasikci/elisp/")
-(load "/home/kasikci/elisp/tuareg-site-file.el")
+;;(add-to-list 'load-path "/home/kasikci/elisp/")
+;;(load "/home/kasikci/elisp/tuareg-site-file.el")
 
 ;; Turn on flyspell in text mode
 (add-hook 'text-mode-hook 'turn-on-flyspell)
