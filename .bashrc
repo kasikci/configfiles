@@ -115,6 +115,7 @@ fi
 
 # Editor settings
 SVN_EDITOR=emacs
+export EDITOR='emacs -nw'
 
 # Path settings
 PATH=$PATH:/opt/pycharm-community-3.4.1/bin
