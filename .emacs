@@ -31,6 +31,8 @@
 
 ;; Turn on flyspell in text mode
 (add-hook 'text-mode-hook 'turn-on-flyspell)
+;; Turn on flyspell's programming mode for programs
+(add-hook 'prog-mode-hook 'flyspell-prog-mode)
 
 ;; auto refresh emacs buffers
 (global-auto-revert-mode t)
