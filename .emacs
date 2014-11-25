@@ -80,3 +80,6 @@
 ;;
 (when (fboundp 'windmove-default-keybindings)
       (windmove-default-keybindings))
+
+;; Make sure emacs does not complain about upper case UTF-8
+(define-coding-system-alias 'UTF-8 'utf-8)
